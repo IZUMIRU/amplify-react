@@ -2,6 +2,8 @@
 
 [技術書典7](https://techbookfest.org/event/tbf07) で [React x Amplify で始めるサーバーレス アプリケーション開発](https://booth.pm/ja/items/1555055) という書籍を買ったので実装してみる。
 
+![image](https://user-images.githubusercontent.com/11635641/65697140-65046500-e0b5-11e9-8f79-f3ae693f9435.png)
+
 ### 本家
 - [crazy-brothers/amplify-sandbox](https://github.com/crazy-brothers/amplify-sandbox)
 
