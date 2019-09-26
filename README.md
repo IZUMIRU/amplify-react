@@ -1,3 +1,14 @@
+# amplify-react
+
+[技術書典7](https://techbookfest.org/event/tbf07) で [React x Amplify で始めるサーバーレス アプリケーション開発](https://booth.pm/ja/items/1555055) という書籍を買ったので実装してみる。
+
+### 本家
+- [crazy-brothers/amplify-sandbox](https://github.com/crazy-brothers/amplify-sandbox)
+
+![image](https://user-images.githubusercontent.com/11635641/65664633-b2141700-e074-11e9-979c-ee0a903f73de.png)
+
+<hr>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

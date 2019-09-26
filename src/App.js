@@ -8,7 +8,7 @@ import logo from './logo.svg';
 import './App.css';
 import * as mutations from './graphql/mutations';
 import * as queries from './graphql/queries';
-// import * as subscriptions from './graphql/subscriptions';
+import * as subscriptions from './graphql/subscriptions';
 
 Amplify.configure(awsconfig);
 
@@ -34,6 +34,14 @@ function App() {
       const todos = await API.graphql(graphqlOperation(queries.listTodos));
       setTodos(todos.data.listTodos.items);
     })();
+
+    // 追加イベントの購読
+    API.graphql(graphqlOperation(subscriptions.onCreateTodo)).subscribe({
+      next: todoData => {
+        const { id, name } = todoData.value.data.onCreateTodo;
+        setTodos(prevTodos => [...prevTodos, { id, name }]);
+      }
+    });
   }, []);
 
   return (
