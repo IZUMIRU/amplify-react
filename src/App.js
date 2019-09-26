@@ -19,7 +19,6 @@ function App() {
     setNameVal(e.target.value);
   }
 
-  // 追加
   const clickHandler = async () => {
     if (!nameVal) return;
     await API.graphql(
