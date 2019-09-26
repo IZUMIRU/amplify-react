@@ -2,6 +2,10 @@
 
 [技術書典7](https://techbookfest.org/event/tbf07) で [React x Amplify で始めるサーバーレス アプリケーション開発](https://booth.pm/ja/items/1555055) という書籍を買ったので実装してみる。
 
+- [S3+CloudFront](https://amplify-react-20190926233306-hostingbucket-dev.s3-ap-northeast-1.amazonaws.com/index.html)
+
+- [Amplify Console](https://master.d11ipwycw1hqgo.amplifyapp.com/)
+
 ![image](https://user-images.githubusercontent.com/11635641/65697140-65046500-e0b5-11e9-8f79-f3ae693f9435.png)
 
 ### 本家
